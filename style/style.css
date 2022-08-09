@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Serif:opsz@8..144&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+:root{
+    --default-btn-color: #ffc107;
+    --btn1-color: #AC5FDB;
+    --btn2-color:#FF004D;
+    --btn3-color:#0EF6BE;
+
+}
+
+.navbar{
+    top: 0%;
+    position: sticky;
+    z-index: 1000;
+}
+.my-color-style {
+    background-color: var(--default-btn-color);
+}
+.my-textcolor-style {
+    color: var(--default-btn-color) ;
+}
+.container h1{
+    text-align: center !important;
+}
+.card{
+    width: 60%;
+    margin: auto;
+}
+.main-container{
+    border: 1px solid grey !important;
+    margin: 2px;
+}
+.color-btn{
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    margin-right: 20px;
+    
+}
+#btn1{
+    background-color: #AC5FDB ;
+}
+#btn2{
+    background-color: #FF004D;
+}
+#btn3{
+    background-color: #0EF6BE;
+}
+.title{
+    display: inline;
+}
